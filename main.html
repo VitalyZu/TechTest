@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Технополис</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700%7CNoto+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  </head>
+  <body>
+    <header class='head'>
+      <div class="menu">
+        <div class="menu__close">
+          <img src="img/header/close.png" alt="Close">
+        </div>
+        <div class="navigation">
+          <ul class="list">
+            <li class="list__item"><a class='list__link regular' href="#">О комплексе</a></li>
+            <li class="list__item"><a class='list__link regular' href="#">Местоположение</a></li>
+            <li class="list__item"><a class='list__link regular' href="#">Инфраструктура</a></li>
+            <li class="list__item"><a class='list__link regular' href="#">Сервис и льготы</a></li>
+            <li class="list__item"><a class='list__link regular' href="#">Резиденты</a></li>
+            <li class="list__item"><a class='list__link regular' href="#">Новости</a></li>
+            <li class="list__item"><a class='list__link regular' href="#">Контакты</a></li>
+          </ul>
+          <button class="navigation__btn">Стать резидентом</button>
+          <div class="press">
+            <div class="press__icon"><img src="img/header/presentation.png" alt="Presentation"></div>
+            <a class="press__link">Смотреть презентацию</a>
+          </div>
+          <div class="wraper">
+            <div class="phone">
+              <div class="phone__number">8 (911) 693-00-06</div>
+              <div class="phone__link regular"><a href="#">Заказать обратный звонок</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div class="social">
+            <a href="#"><img src="img/header/inst.png" alt="Instagram" class="social__item"></a>
+            <a href="#"><img src="img/header/vk.png" alt="Vkontakte" class="social__item"></a>
+            <a href="#"><img src="img/header/fb.png" alt="Facebook" class="social__item"></a>
+          </div>
+        </div>
+      </div>
+      <div class='burger'>
+        <img src="img/header/burger.png" alt="Menu" >
+      </div>
+      <div class='logo'>
+        <img src="img/header/logo.png" alt="Tehnopolis" >
+      </div>
+    </header>
+    <div class="resident-wrap">
+      <div class="resident">
+        <div class="resident__close">
+          <img src="img/header/rclose.png" alt="Close">
+        </div>
+        <h1 class='resident__text small'>Стать резидентом</h1>
+        <form action="url" class="form">
+          <input type="text" id='name' class='form__item small' placeholder="Ф.И.О.">
+          <input type="text" id='company' class='form__item small' placeholder='Компания'>
+          <input type="text" id='email' class='form__item small' placeholder='E-mail'>
+          <input type="text" id='phonenumber' class='form__item small' placeholder='Телефон'>
+          <input type="text" id='comment' class='form__item small' placeholder='Комментарий (если необходимо)'>
+          <button class="form__btn bold">Отправить</button>
+        </form>
+        <div class="resident__desc regular">
+          Нажимая на кнопку “Отправить”, вы даете согласие на обработку ваших персональных данных и соглашаетсь с <a href="#">политикой конфиденциальности</a>
+        </div>
+      </div>
+    </div>
+    <main class='content'>
+      <div class="presentation">
+        <div class="language">
+          <a class='language__link regular link_selected' href="#">рус</a>
+          <a class='language__link regular' href="#">eng</a>
+        </div>
+        <div class="presentation__logo">
+          <img src="img/main/logo_dark.png" alt="Tehnopolis">
+        </div>
+        <div class="presentation__text">
+          Индустриальный<br>парк<br>“Технополис”
+        </div>
+        <div class="video">
+          <div class="video__button">
+            <svg width="70" height="71" viewBox="0 0 70 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.7" filter="url(#filter0_d)">
+            <circle cx="35" cy="35.2055" r="25" fill="#6EB03B"/>
+            </g>
+            <path opacity="0.9" d="M42.7434 33.8001C44.0445 34.5758 44.0445 36.4602 42.7434 37.2359L32.3991 43.4027C31.066 44.1974 29.375 43.2368 29.375 41.6848L29.375 29.3512C29.375 27.7992 31.066 26.8386 32.3991 27.6334L42.7434 33.8001Z" fill="white"/>
+            <defs>
+            <filter id="filter0_d" x="0" y="0.205505" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset/>
+            <feGaussianBlur stdDeviation="5"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.47451 0 0 0 0 0.733333 0 0 0 0 0.219608 0 0 0 0.5 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+            </filter>
+            </defs>
+            </svg>
+          </div>
+          <div class="video__link regular">
+            <a class='presentation__link' href="#">Смотреть видео о “Технополисе”</a>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <div class="wraper-color">
+        <div class="about__headline">О комплексе</div>
+        <div class="about__section">
+          <div class="about__number">12,3</div>
+          <div class='about__description regular'>Гектара, площадь территории парка</div>
+        </div>
+        <div class="about__section">
+          <div class="about__number">50 000</div>
+          <div class='about__description regular'>М2 площадь существующих помещений</div>
+        </div>
+        <div class="about__section">
+          <div class="about__number">20 000</div>
+          <div class='about__description regular'>М2 площадь новой застройки</div>
+        </div>
+        <div class="about__section">
+          <div class="about__number">4300</div>
+          <div class='about__description regular'>Киловатт сети электроснабжения</div>
+        </div>
+        <div class="about__section">
+          <div class="about__number">4,55</div>
+          <div class='about__description regular'>Млн. м3 сети газоснабжения</div>
+        </div>
+        <div class="about__section">
+          <div class="about__number">4,08</div>
+          <div class='about__description regular'>Тыс. м3/сут. сети водоснабжения</div>
+        </div>
+        <div class="about__gallery fotorama"
+              data-nav="thumbs"
+              data-width='100%'
+              data-thumbwidth='80'
+              data-thumbheight='45'
+              data-loop="true"
+              data-thumbmargin='9'>
+          <img src="img/main/gallery/27.png" alt='27'>
+          <img src="img/main/gallery/15.png" alt='15'>
+          <img src="img/main/gallery/2.png" alt='2'>
+          <img src="img/main/gallery/34.png" alt='34' data-fit="cover">
+        </div>
+        </div>
+      </div>
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
